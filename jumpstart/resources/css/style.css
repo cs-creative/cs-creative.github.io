@@ -1,0 +1,139 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Monoton', cursive;
+*/
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* Navigation */
+nav li {
+  display: inline;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+nav li.active {
+  color: #399bd1;
+}
+
+.main {
+  margin: 40px 30px;
+}
+
+
+/* Jumbotron */
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-repeat: no-repeat;
+  height: 40rem;
+  background-position: center;
+  background-size: cover;
+}
+
+
+h1, .jumbotron p {
+  color: white;
+  text-shadow: 1px 1px 0 #000;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+.relative-wrapper {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 2.8rem;
+}
+
+.container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.8rem;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #399bd1;
+  width: 11.4rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  padding: 1rem 0;
+  border: none;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Featured Product */
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+h3.product-category {
+  color: #399bd1;
+}
+
+.image-container {
+  padding-bottom: 20px;
+}
+
+.list li {
+  line-height: 1.4rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+.help {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.help strong {
+  display: inline-block;
+  margin-bottom: 1.4rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.help p {
+  max-width: 42rem;
+  margin: auto;
+}
