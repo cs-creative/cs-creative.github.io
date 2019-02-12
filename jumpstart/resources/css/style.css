@@ -169,6 +169,7 @@ h3.product-category {
 .image-container {
   margin-bottom: 20px;
   overflow: hidden;
+  padding: 0;
 }
 
 .image-container img {
